@@ -1,0 +1,46 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_clear_output"
+        android:title="Clear Output"
+        android:orderInCategory="10"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_create_file"
+        android:title="Create File"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_write_file"
+        android:title="Write File"
+        android:orderInCategory="110"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_read_file"
+        android:title="Read File"
+        android:orderInCategory="120"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_delete_file"
+        android:title="Delete File"
+        android:orderInCategory="200"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_make_directory"
+        android:title="Make Directory"
+        android:orderInCategory="300"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_start_observing"
+        android:title="Start Observing"
+        android:orderInCategory="400"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_stop_observing"
+        android:title="Stop Observing"
+        android:orderInCategory="500"
+        app:showAsAction="never"/>
+</menu>
